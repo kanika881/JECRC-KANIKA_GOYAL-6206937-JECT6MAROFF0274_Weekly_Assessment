@@ -1,0 +1,22 @@
+# how to launch a browser
+from selenium import webdriver
+from time import sleep
+driver=webdriver.Chrome()
+# sleep(5)
+# driver=webdriver.Edge()
+# sleep(5)
+# driver=webdriver.Firefox()
+sleep(5)
+driver.get("https://supertails.com")
+# driver(3)
+driver.maximize_window()
+sleep(2)
+# driver.minimize_window()
+# sleep(2)
+driver.back()
+sleep(2)
+driver.forward()
+sleep(2)
+driver.refresh()
+sleep(2)
+# driver.quit()
