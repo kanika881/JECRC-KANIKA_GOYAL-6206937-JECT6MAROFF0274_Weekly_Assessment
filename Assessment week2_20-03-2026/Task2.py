@@ -34,3 +34,5 @@ print("Newsletter selected:", newsletter.get_attribute("checked"))
 
 
 print("Special offers selected:", offers.get_attribute("checked"))
+
+driver.quit()
